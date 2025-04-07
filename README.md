@@ -10,3 +10,7 @@ The work investigates the settlement dynamics of the lower Verbano area between 
 
 The model is primarily intended to test the reliability of inductive predictive modelling in understanding ancient settlement patterns.
 The results will then be further discussed and developed.
+
+Source of data
+- Archaeological sites: https://gna.cultura.gov.it/ 
+- DEM used for predictors calculation: European Digital Elevation Model - https://ec.europa.eu/eurostat/web/gisco/geodata/digital-elevation-model/
