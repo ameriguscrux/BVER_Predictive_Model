@@ -2,7 +2,7 @@ BVER PREDICTIVE MODEL
 
 Data and code used for the development of an inductive predictive model in the southern lake Maggiore (Verbano) area, between Lombardy and Piedmont, Italy. BVER is for "Basso VERbano" (Lower Verbano).
 
-The inductive predictive model was originally created as a part of a full scale archaeological research in the area, supported by the Cattedra di Archeologia Cristiana, Tardoantica e Medievale (Chair of Christian, Late Antiquity and Medieaval Archaeology) of the University of Milan, department of Cultural and Environmental Heritage.
+The inductive predictive model was originally created as a part of a full scale archaeological research in the area, supported by the Cattedra di Archeologia Cristiana, Tardoantica e Medievale (Chair of Christian, Late Antiquity and Medieval Archaeology) of the University of Milan, department of Cultural and Environmental Heritage.
 
 The model was developed using the protocol defined in: CROCE E., CARRER F., 2024, SBC Predictive Model (v1.0.1) - Dataset. https://doi.org/10.5281/zenodo.14245171
 Availabale also on GitHub: https://github.com/ameriguscrux/SBC_Predictive_Model/releases/tag/v1.0.1
