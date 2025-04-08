@@ -1,13 +1,21 @@
+name: Sync to Dataverse
+
 on: 
   release:
-   jobs:
-    build:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  sync-to-dataverse:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
       - name: Send repo to Dataverse 
         uses: IQSS/dataverse-uploader@v1.6
         with:
-          DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
+          DATAVERSE_TOKEN: ${{ secrets.DATAVERSE_TOKEN }}
           DATAVERSE_SERVER: https://dataverse.unimi.it/
           DATAVERSE_DATASET_DOI: doi:10.13130/RD_UNIMI/2WL9VZ
           DELETE: False
